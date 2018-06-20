@@ -7,26 +7,11 @@
 
 import scrapy
 
-
-class MyspiderItem(scrapy.Item):
-    pass
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-
-class Website(scrapy.Item):
-    name = scrapy.Field()
-    description = scrapy.Field()
-    url = scrapy.Field()
-
 class DmozItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     desc = scrapy.Field()
 
 class JiandanspiderItem(scrapy.Item):
-    image_hash = scrapy.Field()
-    js = scrapy.Field()
-
-class FinancialspiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    html_content = scrapy.Field()
+    img_file = scrapy.Field()
+    img_url = scrapy.Field()
