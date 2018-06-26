@@ -1,4 +1,4 @@
-data/*.txt
+myspider/data/*.txt
 myspider/__init__.pyc
 myspider/items.pyc
 myspider/lib/db.pyc
