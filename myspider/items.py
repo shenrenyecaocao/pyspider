@@ -13,5 +13,5 @@ class DmozItem(scrapy.Item):
     desc = scrapy.Field()
 
 class JiandanspiderItem(scrapy.Item):
-    img_file = scrapy.Field()
+    # img_file = scrapy.Field()
     img_url = scrapy.Field()

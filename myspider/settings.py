@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'myspider.spiders'
 
 DEFAULT_ITEM_CLASS = 'myspider.items.Website'
 
-ITEM_PIPELINES = {'myspider.pipelines.JiandanspiderPipeline': 1}
+ITEM_PIPELINES = {'myspider.pipelines.JiandanspiderPipeline1': 1}
 FEED_EXPORT_ENCODING = 'utf-8'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent

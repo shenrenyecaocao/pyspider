@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="059d38cf-cc21-4ea1-9050-ba7701583a86" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspider/data/info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspider/data/js_info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspider/data/crawl_img_recrod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myspider/data/crawl_img_recrod.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myspider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/myspider/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspider/lib/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myspider/lib/md5.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myspider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/myspider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myspider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myspider/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myspider/spiders/jiandan.py" beforeDir="false" afterPath="$PROJECT_DIR$/myspider/spiders/jiandan.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jiandan.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jiandan.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myspider/spiders/jiandan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="440">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
                 <element signature="e#25#38#0" expanded="true" />
               </folding>
@@ -38,14 +36,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspider/lib/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="70" column="26" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myspider/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="515">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawl_img_recrod.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspider/data/crawl_img_recrod.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-214" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspider/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myspider/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -97,13 +132,15 @@
         <option value="$PROJECT_DIR$/jquery.js" />
         <option value="$PROJECT_DIR$/ooxx.html" />
         <option value="$PROJECT_DIR$/myspider/data/jiandan.html" />
-        <option value="$PROJECT_DIR$/myspider/settings.py" />
         <option value="$PROJECT_DIR$/myspider/lib/md5.js" />
         <option value="$PROJECT_DIR$/myspider/data/info.txt" />
         <option value="$PROJECT_DIR$/myspider/lib/test.py" />
         <option value="$PROJECT_DIR$/myspider/items.py" />
-        <option value="$PROJECT_DIR$/myspider/pipelines.py" />
+        <option value="$PROJECT_DIR$/myspider/settings.py" />
+        <option value="$PROJECT_DIR$/myspider/data/crawl_img_recrod.txt" />
+        <option value="$PROJECT_DIR$/myspider/lib/db.py" />
         <option value="$PROJECT_DIR$/myspider/spiders/jiandan.py" />
+        <option value="$PROJECT_DIR$/myspider/pipelines.py" />
       </list>
     </option>
   </component>
@@ -116,7 +153,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -127,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,15 +183,21 @@
               <item name="myspider" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myspider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myspider" type="462c0819:PsiDirectoryNode" />
+              <item name="myspider" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -174,7 +218,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.db">
+    <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myspider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myspider/lib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myspider/lib/db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="jiandan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="myspider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,9 +296,11 @@
       <item itemvalue="Python.xiecheng_spider" />
       <item itemvalue="Python.jiandan" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.db" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.db" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.jiandan" />
         <item itemvalue="Python.xiecheng_spider" />
@@ -269,13 +333,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964706" visible="true" weight="0.17410715" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964706" visible="true" weight="0.17410715" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50074404" side_tool="true" weight="0.5214521" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32676518" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" weight="0.32786885" />
-      <window_info anchor="bottom" x="11" y="230" width="1344" height="267" id="Python Console" order="8" sideWeight="0.49925596" weight="0.36453202" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.06568144" />
+      <window_info anchor="bottom" x="11" y="230" width="1344" height="267" id="Python Console" order="8" sideWeight="0.49925596" weight="0.10180624" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.57471263" />
       <window_info id="Structure" order="1" sideWeight="0.5033003" side_tool="true" weight="0.16741072" />
       <window_info anchor="bottom" x="11" y="206" width="1344" height="316" id="Terminal" order="10" sideWeight="0.4985119" weight="0.26272577" />
       <window_info id="Favorites" order="2" sideWeight="0.504717" side_tool="true" weight="0.16741072" />
@@ -283,13 +347,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,23 +389,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myspider/spiders/jiandan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#25#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myspider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -352,13 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/lib/md5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30600">
-          <caret line="1224" column="3" selection-start-line="1224" selection-start-column="3" selection-end-line="1224" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/lib/md5.js" />
     <entry file="file://$PROJECT_DIR$/myspider/spiders/jiandan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -468,50 +509,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/data/js_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1300">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/lib/md5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="1224" column="3" selection-start-line="1224" selection-start-column="3" selection-end-line="1224" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/lib/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/data/info.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/data/img_url.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawl_img_recrod.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/data/js_info.js" />
+    <entry file="file://$PROJECT_DIR$/myspider/lib/md5.js" />
+    <entry file="file://$PROJECT_DIR$/myspider/lib/test.py" />
+    <entry file="file://$PROJECT_DIR$/myspider/data/info.txt" />
+    <entry file="file://$PROJECT_DIR$/myspider/data/img_url.txt" />
+    <entry file="file://$PROJECT_DIR$/crawl_img_recrod.txt" />
     <entry file="file://$PROJECT_DIR$/myspider/data/image/006XNEY7gy1fs4fwqaesaj30hq0qo42j.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -521,35 +524,62 @@
     <entry file="file://$PROJECT_DIR$/myspider/data/image/b11e3521gy1fsgtpa8235g20b4069hdw.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/data/image_hash.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/data/crawl_img_recrod.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/myspider/data/image_hash.txt" />
+    <entry file="file://C:/Python27/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="98">
+          <caret line="101" column="34" selection-start-line="101" selection-start-column="27" selection-end-line="101" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/lib/__init__.PY">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/lib/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="26" />
           <folding>
-            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myspider/items.py">
+    <entry file="file://$PROJECT_DIR$/myspider/data/crawl_img_recrod.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
+        <state relative-caret-position="-214" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myspider/spiders/jiandan.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="440">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
             <element signature="e#25#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myspider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

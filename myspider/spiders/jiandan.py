@@ -16,12 +16,18 @@ class JiandanSpider(scrapy.Spider):
     def parse(self, response):
         image_hash = response.xpath('//ol[@class="commentlist"]//span[@class="img-hash"]/text()').extract()
         for _hash in image_hash:
-            img_url = self.decrypt_fun(img_hash=_hash)
-            yield Request(img_url, callback=self.download_img)
+            item = JiandanspiderItem()
+            item['img_url'] = self.decrypt_fun(img_hash=_hash)
+            yield item
+            # yield Request(img_url, callback=self.download_img)
         next_page = response.xpath("//div[@class='cp-pagenavi']//a[@class='previous-comment-page']/@href").extract_first()
         if next_page is not None:
             next_page = response.urljoin(next_page)
             yield scrapy.Request(next_page, callback=self.parse)
+
+    def save_img(self, response):
+        pass
+
 
     def download_img(self, response):
         item = JiandanspiderItem()
