@@ -1,4 +1,4 @@
-data/*.txt
+myspider/data/*.txt
 myspider/__init__.pyc
 myspider/items.pyc
 myspider/lib/db.pyc
@@ -7,6 +7,3 @@ myspider/settings.pyc
 myspider/spiders/__init__.pyc
 myspider/spiders/dmoz_spider.pyc
 myspider/spiders/jiandan.pyc
-
-
-
